@@ -1,0 +1,8 @@
+﻿@import "variables";
+@import "bootstrap-customize";
+
+@import "default-view";
+
+@media only screen and (max-width: 767px) {
+    @import "mobile-view";
+}

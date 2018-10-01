@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "scripts/app.js",
+    "inputFiles": [
+      "scripts/lib.js",
+      "scripts/scripts.js"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+﻿.container {
+    .truck-map {
+        height: 90vh !important;
+    }
+
+    .loc-card-container {
+        height: unset;
+        overflow: unset;
+    }
+
+    .details-modal-container {
+        position: fixed;
+    }
+
+    .return-to-card {
+        bottom: 5px;
+        right: 10px;
+        font-size: 42px;
+        z-index: 3000;
+        text-align: center;
+        width: 100%;
+        color: $accent-color-primary;
+    }
+}
+
+.mobile-nav {
+    a {
+        color: white;
+        font-size: 32px;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

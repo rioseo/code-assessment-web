@@ -1,0 +1,10 @@
+﻿@import "variables";
+
+.btn-primary {
+    background-color: $btn-primary-back-color;
+}
+
+.btn-primary:hover {
+    background-color: $accent-color-primary;
+    border-color: $accent-color-secondary;
+}
