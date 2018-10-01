@@ -1,0 +1,138 @@
+﻿.container {
+
+    .desktop-nav {
+        height: 10vh;
+
+        .navbar-text {
+            > a:not(:first-child) {
+                margin-left: 1.5rem;
+            }
+        }
+    }
+
+    .map-placeholder {
+        background: #cccccc;
+        color: #5c5c5c;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-container {
+        .truck-map {
+            width: 100%;
+            height: 90vh;
+            border: 0
+        }
+    }
+
+    .details-modal-container {
+        background-color: rgba(128, 128, 128, 0.50);
+        z-index: 9999;
+        position: absolute;
+        top: 0;
+        left: 15px;
+        right: 15px;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .details-modal-dialog {
+            background-color: white;
+            width: 100%;
+            height: 94%;
+            margin: 7%;
+
+            .card-body {
+
+                .accent-btn-container {
+                    margin-bottom: 2rem;
+
+                    .direction {
+                        margin-left: 3rem;
+                    }
+                }
+
+                .weekly-schedules {
+                    margin-bottom: 2rem;
+                }
+
+                .btn-full-details {
+                    width: 100%;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .details-modal-close {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-weight: bold;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+
+    .loc-card-container {
+        height: 90vh;
+        overflow: scroll;
+
+        .loc-card {
+            margin-bottom: 1rem;
+            box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.3);
+
+            &.active {
+                background-color: rgba(249, 152, 13, 0.38);
+            }
+        }
+    }
+
+    .card-header {
+
+        h5 {
+            font-weight: normal;
+        }
+    }
+
+    .card-body {
+        .address-container {
+            margin-bottom: 1rem;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .today-close {
+            color: $accent-color-secondary;
+        }
+
+        .phone,
+        .direction {
+            color: $accent-color-primary;
+
+            i {
+                transform: scaleX(-1);
+                font-size: 1.2rem;
+            }
+
+            a {
+                color: $accent-color-primary;
+                text-decoration: none;
+            }
+        }
+
+        .card-buttons-container {
+            display: flex;
+            justify-content: space-around;
+
+            a {
+                width: 45%;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+﻿<p data-bind="text: id"></p><br>
+<p data-bind="text: name"></p><br>
+<p data-bind="text: url"></p><br>
+<p data-bind="text: address"></p><br>
+<p data-bind="text: city"></p><br>
+<p data-bind="text: state"></p><br>
+<p data-bind="text: postal_code"></p><br>
+<p data-bind="text: latitude"></p><br>
+<p data-bind="text: longitude"></p><br>
+<p data-bind="text: monday_open"></p><br>
+<p data-bind="text: monday_close"></p><br>
+<p data-bind="text: tuesday_open"></p><br>
+<p data-bind="text: tuesday_close"></p><br>
+<p data-bind="text: wednesday_open"></p><br>
+<p data-bind="text: wednesday_close"></p><br>
+<p data-bind="text: thursday_open"></p><br>
+<p data-bind="text: thursday_close"></p><br>
+<p data-bind="text: friday_open"></p><br>
+<p data-bind="text: friday_close"></p><br>
+<p data-bind="text: saturday_open"></p><br>
+<p data-bind="text: saturday_close"></p><br>
+<p data-bind="text: sunday_open"></p><br>
+<p data-bind="text: sunday_close"></p><br>
+
+
+"id"
+"name"
+"url"
+"address"
+"city"
+"state"
+"postal_code"
+"latitude"
+"longitude"
+"monday_open"
+"monday_close"
+"tuesday_open"
+"tuesday_close"
+"wednesday_open"
+"wednesday_close"
+"thursday_open"
+"thursday_close"
+"friday_open"
+"friday_close"
+"saturday_open"
+"saturday_close"
+"sunday_open"
+"sunday_close"
+
+
+
+
+this.id = ko.observable(data.id);
+this.name = ko.observable(data.name);
+this.url = ko.observable(data.url);
+this.address = ko.observable(data.address);
+this.city = ko.observable(data.city);
+this.state = ko.observable(data.state);
+this.postal_code = ko.observable(data.postal_code);
+this.latitude = ko.observable(data.latitude);
+this.longitude = ko.observable(data.longitude);
+this.monday_open = ko.observable(data.monday_open);
+this.monday_close = ko.observable(data.monday_close);
+this.tuesday_open = ko.observable(data.tuesday_open);
+this.tuesday_close = ko.observable(data.tuesday_close);
+this.wednesday_open = ko.observable(data.wednesday_open);
+this.wednesday_close = ko.observable(data.wednesday_close);
+this.thursday_open = ko.observable(data.thursday_open);
+this.thursday_close = ko.observable(data.thursday_close);
+this.friday_open = ko.observable(data.friday_open);
+this.friday_close = ko.observable(data.friday_close);
+this.saturday_open = ko.observable(data.saturday_open);
+this.saturday_close = ko.observable(data.saturday_close);
+this.sunday_open = ko.observable(data.sunday_open);
+this.sunday_close = ko.observable(data.sunday_close);
